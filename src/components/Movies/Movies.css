@@ -1,0 +1,21 @@
+.movies{
+    list-style: none;
+    margin: 0;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    align-items: end;
+    padding: 0;
+}
+
+.movie{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+}
+
+.movie img{
+    border-radius: 0.5rem;
+}
